@@ -11,6 +11,11 @@
 # This function creates a special matrix object that stores both a matrix
 # and its inverse and provides functions to access those matrices
 # and also to save those matrices. 
+# Description about the member functions:
+# 1. set(y) function sets the matrix to an object
+# 2. get() functions returns the matrix
+# 3. setInverse(invMatrix) function sets the inverse of the matrix to an object
+# 4. getInverse() function returns the inverse of the matrix that is stored
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y){
